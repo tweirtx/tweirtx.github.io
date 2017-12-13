@@ -1,6 +1,0 @@
-theme: jekyll-theme-slate
-docs_list_title: Pages
-docs:
-
-- title: Test
-  url: test.html
