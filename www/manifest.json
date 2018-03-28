@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "5052 Scouting",
+  "short_name": "5052 Scouting",
+  "version": "com.team5052.scouter",
+  "description": "A scouting app designed for team 5052 that communicates with QR codes and is cross-platform",
+  "author": "Travis Weir",
+  "icons": [],
+  "start_url": "index.html"
+}
