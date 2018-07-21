@@ -79,7 +79,8 @@
 	    	<div class="downbot">
 			<h3>DownBot</h3>
 			<p>I wrote a bot that allows for autofailover for Discord bots. My primary intention is for it to do Dozer redundancy, however I'd love to see
-				other bot projects using it. You can find it <a href='https://github.com/tweirtx/DownBot'>here.</a></p>
+				other bot projects using it. I originally wrote the bot in Python, but couldn't get subprocess to behave properly so I wrote it
+				 in node.js so I could use pm2. You can find it <a href='https://github.com/tweirtx/DownBot'>here.</a></p>
 	    	</div>
 	    	<div class="5052-scouter">
 			<h3>5052 Scouter</h3>
@@ -93,18 +94,24 @@
 		</div>
 	    	<div class="avatartopng">
 			<h3>Avatar to PNG</h3>
-			<p>This is a mini-API that takes requests for FRC team avatars, pulls the base64 for the avatar, and caches it as PNG. The source code is unavailable at this time but it will be linked here.</p>
+			<p>This is a Python mini-API that takes requests for FRC team avatars, pulls the base64 for the avatar, and caches it as PNG. The source code is unavailable at this time but it will be linked here.</p>
 	    	</div>
 		<div class="DebateBot">
 			<h3>DebateBot</h3>
-			<p>This is a Discord bot that structures debates. Code can be found <a href='https://github.com/tweirtx/debatebot'>here</a> and the bot 
+			<p>This is a Discord bot that structures debates. The bot is written in Python, and code can be found <a href='https://github.com/tweirtx/debatebot'>here</a> and the bot 
 			can be invited <a href='https://discordapp.com/oauth2/authorize?client_id=423956493214285829&permissions=268437520&scope=bot'>here</a></p>
     		</div>
 		<div class="pitrello">
 			<h3>Public Ideas to Trello</h3>
 			<p>This is a Discord bot that I wrote for the FRC Discord server that takes public ideas (in a certain channel) and puts them in a Trello list.
-				Code can be found <a href='https://github.com/tweirtx/public-ideas-to-trello'>here</a>
+				I wrote it in Python, and the code can be found <a href='https://github.com/tweirtx/public-ideas-to-trello'>here</a>
 	    	</div>
+	    	<div class="lemmein">
+			<h3>LemmeIn</h3>
+			<p>This is a Flask-based Slack bot that is used to know when people need to be let in to the building at robotics meetings. It serves up a form where
+				the user is asked for their name and which door they're at, then the input is sent to a Slack channel. It's written in Python and can be found 
+				<a href='https://github.com/tweirtx/LemmeIn'>here</a></p>
+	    </div>
 	    	
 	    
 	    <!-- /.container -->
